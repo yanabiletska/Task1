@@ -1,4 +1,4 @@
-package com.cydeo.runners;
+package com.files.runners;
 
 import io.cucumber.junit.Cucumber;
 import io.cucumber.junit.CucumberOptions;
@@ -12,7 +12,7 @@ import org.junit.runner.RunWith;
                 "rerun:target/rerun.txt",
                 "me.jvt.cucumber.report.PrettyReports:target/cucumber"},
         features ="src/test/resources/features",
-        glue = "com/cydeo/step_definitions",
+        glue = "com/files/step_definitions",
         dryRun = true,
         publish = true
 )
